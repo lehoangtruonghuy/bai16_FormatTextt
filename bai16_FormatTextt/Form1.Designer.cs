@@ -33,9 +33,10 @@
             this.hệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tiệnÍchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fomatTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.fomatTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -74,8 +75,17 @@
             this.tiệnÍchToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.tiệnÍchToolStripMenuItem.Text = "Tiện Ích ";
             // 
+            // fomatTextToolStripMenuItem
+            // 
+            this.fomatTextToolStripMenuItem.Name = "fomatTextToolStripMenuItem";
+            this.fomatTextToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.fomatTextToolStripMenuItem.Text = "Fomat text";
+            this.fomatTextToolStripMenuItem.Click += new System.EventHandler(this.fomatTextToolStripMenuItem_Click);
+            // 
             // trợGiúpToolStripMenuItem
             // 
+            this.trợGiúpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thôngTinToolStripMenuItem});
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.trợGiúpToolStripMenuItem.Text = "Trợ Giúp";
@@ -85,12 +95,12 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // fomatTextToolStripMenuItem
+            // thôngTinToolStripMenuItem
             // 
-            this.fomatTextToolStripMenuItem.Name = "fomatTextToolStripMenuItem";
-            this.fomatTextToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fomatTextToolStripMenuItem.Text = "Fomat text";
-            this.fomatTextToolStripMenuItem.Click += new System.EventHandler(this.fomatTextToolStripMenuItem_Click);
+            this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
+            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thôngTinToolStripMenuItem.Text = "Thông Tin";
+            this.thôngTinToolStripMenuItem.Click += new System.EventHandler(this.thôngTinToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -121,6 +131,7 @@
         private System.Windows.Forms.ToolStripMenuItem trợGiúpToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fomatTextToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinToolStripMenuItem;
     }
 }
 

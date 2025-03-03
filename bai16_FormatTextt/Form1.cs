@@ -28,5 +28,12 @@ namespace bai16_FormatTextt
             formatText.MdiParent = this;
             formatText.Show();
         }
+
+        private void thôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 AboutBox1 = new AboutBox1();
+           AboutBox1.MdiParent = this;
+           AboutBox1.Show();
+        }
     }
 }
